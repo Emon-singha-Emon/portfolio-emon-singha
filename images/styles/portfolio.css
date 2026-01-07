@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*shared styles*/
+
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+.logo h2 {
+  font-size: 40px;
+  font-size:bold;
+  font-weight: 900;
+  text-align: right;
+}
+.logo {
+  text-align: right;
+}
+
+.color-orange{
+  color:#FD6E0A;
+}
+.button{
+  background-color: #FD6E0A;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 18px;
+  font-style: bold;
+}
+/* main styles qqv   */
+header {
+background-color: rgb(241, 234, 228);
+padding-top: 40px;
+}
+
+nav {
+    width: 71%;
+    max-width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+nav .menu{
+  display: contents;
+  list-style-type:none;
+  gap:51px;
+align-items:center ;
+}
+nav .menu a{
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+}
